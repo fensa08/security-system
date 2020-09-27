@@ -15,4 +15,4 @@ This project is in development phase and this file will be updated upon its comp
 
 
 
-All copyrights belong to the respective creators & Adafruit.
+All copyrights belong to the respective creators & Adafruit.I claim none of it.
