@@ -11,3 +11,8 @@ The components needed for the project:
 - Some jumper cables
 
 This project is in development phase and this file will be updated upon its completion.
+
+
+
+
+All copyrights belong to the respective creators.
