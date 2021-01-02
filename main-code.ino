@@ -190,43 +190,43 @@ void printName(int num)
 
   if (num == 1)
   {
-    Serial.print("\nUser: Stefan Apostolovski; \n index: 165038\n");
+    Serial.print("\nUser: User1; \n index: 165038\n");
     printLCD(num);
     return;
   }
   if (num == 2)
   {
-    Serial.print("\nUser: Toni Mihajlovski; \n index: 166050\n");
+    Serial.print("\nUser: User2 ; \n index: 166050\n");
     printLCD(num);
     return;
   }
   if (num == 3)
   {
-    Serial.print("\nUser: Boris Apostolovski; \n index: 142009\n");
+    Serial.print("\nUser: User3; \n index: 142009\n");
     printLCD(num);
     return;
   }
   if (num == 4)
   {
-    Serial.print("\nUser: Dimitar Petrovski; \n index: 165011\n");
+    Serial.print("\nUser: User4; \n index: 165011\n");
     printLCD(num);
     return;
   }
   if (num == 5)
   {
-    Serial.print("\nUser: Ivan Markov; \n index: 155001\n");
+    Serial.print("\nUser: User5; \n index: 155001\n");
     printLCD(num);
     return;
   }
   if (num == 6)
   {
-    Serial.print("\nUser: Ljupka Apostolovska; \n index: 191010\n");
+    Serial.print("\n User6; \n index: 191010\n");
     printLCD(num);
     return;
   }
   if (num == 7)
   {
-    Serial.print("\nUser: Marija Vecovska; \n index: 185008\n");
+    Serial.print("\nUser:  User7; \n index: 185008\n");
     printLCD(num);
     return;
   }
@@ -252,7 +252,7 @@ void printLCD(int num)
   lcd.setCursor(0, 0);
   if (num == 1)
   {
-    lcd.print("Welcome Stefan!");
+    lcd.print("Welcome User1!");
     lcd.setCursor(0, 1);
     lcd.print("Index: 165038");
     delay(10000);
@@ -261,7 +261,7 @@ void printLCD(int num)
   }
   if (num == 2)
   {
-    lcd.print("Welcome Toni!");
+    lcd.print("Welcome User2!");
     lcd.setCursor(0, 1);
     lcd.print("Index: 166050");
     delay(10000);
@@ -270,7 +270,7 @@ void printLCD(int num)
   }
   if (num == 3)
   {
-    lcd.print("Welcome Boris!");
+    lcd.print("Welcome User3!");
     lcd.setCursor(0, 1);
     lcd.print("Index: 142009");
     delay(10000);
@@ -279,7 +279,7 @@ void printLCD(int num)
   }
   if (num == 4)
   {
-    lcd.print("Welcome Dimitar!");
+    lcd.print("Welcome User4!");
     lcd.setCursor(0, 1);
     lcd.print("Index: 165011");
     delay(10000);
@@ -297,7 +297,7 @@ void printLCD(int num)
   }
   if (num == 6)
   {
-    lcd.print("Welcome Ljupka!");
+    lcd.print("Welcome User!");
     lcd.setCursor(0, 1);
     lcd.print("Index: 191010");
     delay(10000);
@@ -306,7 +306,7 @@ void printLCD(int num)
   }
   if (num == 7)
   {
-    lcd.print("Welcome Marija!");
+   lcd.print("Welcome User!");
     lcd.setCursor(0, 1);
     lcd.print("Index: 185008");
     delay(10000);
@@ -315,7 +315,7 @@ void printLCD(int num)
   }
   if (num == -1)
   {
-    lcd.print("Obidete se ");
+    llcd.print("Welcome User!");
     lcd.setCursor(0, 1);
     lcd.print("povtorno");
     delay(3000);
